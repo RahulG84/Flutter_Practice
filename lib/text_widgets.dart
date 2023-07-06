@@ -7,9 +7,9 @@ class TextWidgets extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const StyledTexts(
-      name: "Hello Rahul",
+    return StyledTexts(
+      name: "Counter",
+      color: Colors.red,
     );
-
   }
 }
